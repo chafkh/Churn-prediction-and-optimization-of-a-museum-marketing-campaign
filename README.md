@@ -1,45 +1,43 @@
-#
-In this project, we run a marketing company for museums in Italy. The aim is to predict churn and visualize profit for optimization purposes. 
-
-
-
 #  Churn prediction and optimization of a museum marketing campaign
 
 ## 📌 Project Description
 
 In this project, we run a marketing company for museums in Italy. The aim is to predict churn and visualize profit for optimization purposes. 
 
-
 ---
 
 ## 📊 Project Preview
 
-- Python Notebook: [RL_JANATI_KHERMOUCHE.ipynb](./RL_JANATI_KHERMOUCHE.ipynb)
-- Report: [RL_JANATI_KHERMOUCHE_DS2E.pdf](./RL_JANATI_KHERMOUCHE_DS2E.pdf)
+- Data source: [Data](./Data)
+- Instructions: [Consignes](./Consignes)
+- Notebook: [Code.ipynb](./Code.ipynb)
+- Report: [Report.pdf](./Report.pdf)
 
 ---
 
-## ⚙️ Main steps
-This project follows a series of logical steps:
-- Importing the necessary libraries
-- Setting up the environment: field and number of actions, rewards, policy (set of actions), loops for iterations, etc.
-- Deterministic model
-- Non-deterministic model
-- Machine learning
-- Conclusion
+## 📂 Data Sources
+
+The data source was provided by our supervisor as part of a research project I conducted during my second year of my master's program. It is 3 flat files in Excel format.
+
+This data provides information on users of a museum card. You can see the data description here : [Consignes.pdf](./Consignes/take_home_file_description.pdf)
 
 ---
 
-## 📈 KPIs & Analysis
-Key metrics included in the project:
+## ⚙️ Data Pipeline / Architecture
+This project follows a complete machine learning project approach:
 
-- Q-Value(s,a) for each action (a) and state (s)
-- Probability of falling and of not falling
+- Importing the necessary Python libraries
+- Importing the data and creating initial visualizations (data structure)
+- Modeling (predicting the y variable based on the x variables, splitting the data into training and test sets)
+- Implementing models (logistic regression, Decision Tree Classifier, Random Forest, XGBoost Classifer, Models Hyperparameter Tuning, etc...)
+- ROC and Profit curves
+- Analyzing key performance metrics (MAE, MSE, RMSE)
 
 ---
 
 ## 🛠️ Tools & Technologies
-- Python 
+- Excel / CSV
+- Python
 
 ---
 
